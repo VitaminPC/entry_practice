@@ -671,10 +671,7 @@ class Program
                 else if(currentPlayer == 0)
                 {
                    result = move;     
-                   if(currentPlayer < 2)
-                        currentPlayer = 2;
-                    else
-                        currentPlayer = 1;
+                   currentPlayer = 2;
                 }
                 else
                 {
