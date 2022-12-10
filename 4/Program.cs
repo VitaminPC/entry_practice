@@ -374,7 +374,7 @@ class Program
             bool chainsawOn = false;
             int chainsawOnCounter = 0;
             int mapShift = 1;
-            char wall = '*';
+            char wall = '█';
             char space = ' ';
             void ShowDebug(string text, int row = 6)
             {
