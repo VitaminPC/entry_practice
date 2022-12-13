@@ -537,7 +537,7 @@ class Program
                 else if (pressedKey == ConsoleKey.RightArrow) newPosition.Item2++;
                 else if (pressedKey == ConsoleKey.UpArrow) newPosition.Item1--;
                 else if (pressedKey == ConsoleKey.DownArrow) newPosition.Item1++;
-                else if (pressedKey == ConsoleKey.Spacebar) chainsawOn = true;
+                else if (pressedKey == ConsoleKey.Spacebar) {chainsawOn = true; chainsawOnCounter = 0;}
                 else if (pressedKey == ConsoleKey.Escape)
                 {
                     ShowDebug("      GAME OVER!!!      ");
