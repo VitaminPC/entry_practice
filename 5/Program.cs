@@ -182,17 +182,7 @@ class Program
         //Zadacha34();
     }
 
-    static int Number_of_digits(int n)
-    {
-        int count = 0;
-        while (n > 0)
-        {
-            n /= 10;
-            count++;
-        }
-
-        return count;
-    }
+   
     static void FillArray(int[] array, int begin = 0, int range = 10)
     {
         range++;
