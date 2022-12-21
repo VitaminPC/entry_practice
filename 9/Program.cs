@@ -85,7 +85,7 @@ namespace Practice9
                     }
                 }
             }
-            
+
             void ZadachaDop2()
             {
                 // Задача 2. Известно, что пароль длиной 3 символа состоит из латинских букв строчного регистра и цифр от 0 до 9. 
@@ -104,7 +104,7 @@ namespace Practice9
                 bool TryToOpen(int i, int j, int k)
                 {
 
-                    Console.WriteLine($"i ={i} j = {j} k = {k}");
+                    //Console.WriteLine($"i ={i} j = {j} k = {k}");
                     if (i == symbols.Length - 1 && j == symbols.Length - 1 && k == symbols.Length - 1)
                     {
                         Console.WriteLine("Can't open the door.");
@@ -129,7 +129,7 @@ namespace Practice9
                     i = variant / (symbols.Length * symbols.Length);
                     j = (variant % (symbols.Length * symbols.Length)) / symbols.Length;
                     k = variant % symbols.Length;
-                    Console.WriteLine($"i ={i} j = {j} k = {k}");
+                    //Console.WriteLine($"i ={i} j = {j} k = {k}");
                     if (i == symbols.Length - 1 && j == symbols.Length - 1 && k == symbols.Length - 1)
                     {
                         Console.WriteLine("Can't open the door.");
